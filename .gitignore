@@ -1,0 +1,8 @@
+# IDE Stuff
+.vscode
+
+# Extra Python Files
+__pycache__/
+
+# Dependencies
+node_modules/
