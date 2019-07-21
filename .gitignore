@@ -6,3 +6,6 @@ __pycache__/
 
 # Dependencies
 node_modules/
+
+# credential files
+cred**
