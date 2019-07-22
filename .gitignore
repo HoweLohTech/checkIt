@@ -12,3 +12,6 @@ cred**
 
 # some gcloud files
 .gcloudignore
+
+#Mac files
+*.DS_Store
