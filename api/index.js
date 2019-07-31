@@ -22,4 +22,9 @@ app.get('/', (req, res) => {
     })
 })
 
-app.listen(3000)
+const server = app.listen(8080, () => {
+    const host = server.address().address
+    const port = server.address().port
+
+    console.log(`App running at https://${host}:${port}`)
+})
